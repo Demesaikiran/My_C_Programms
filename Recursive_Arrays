@@ -1,0 +1,84 @@
+Recursive Arrays
+Time limit: 1000 ms
+Memory limit: 128 MB
+
+You have an array AAA of size NNN, 1≤A[i]≤N1 \leq A[i] \leq N1≤A[i]≤N for all iii. You repeat the following process indefinitely:
+
+    Build a new array BBB, such that B[i]=A[A[i]]B[i]=A[A[i]]B[i]=A[A[i]]
+    Make AAA equal to BBB. 
+
+What's the number of distinct arrays AAA you get?
+Standard input
+
+The first line contains a single integer NNN.
+
+The second line contains the elements of AAA.
+Standard output
+
+Print the answer modulo 109+710^9+710​9​​+7 on the first line.
+Constraints and notes
+
+    1≤N≤1051 \leq N \leq 10^51≤N≤10​5​​
+    1≤Ai≤N1 \leq A_i \leq N1≤A​i​​≤N 
+
+Input	Output	Explanation
+
+4
+2 3 1 4
+
+	
+
+2
+
+	
+
+The arrays are
+
+2 3 1 4
+
+3 1 2 4
+
+4
+3 2 4 2
+
+	
+
+3
+
+	
+
+The arrays are
+
+3 2 4 2
+
+4 2 2 2
+
+2 2 2 2
+
+4
+4 3 1 2
+
+	
+
+3
+
+	
+
+The arrays are
+
+4 3 1 2
+
+2 1 4 3
+
+1 2 3 4
+
+12
+2 6 5 1 11 10 9 12 4 7 8 3
+
+	
+
+12
+
+	
+
+https://csacademy.com/contest/archive/task/recursive-arrays/
